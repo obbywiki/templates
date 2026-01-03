@@ -1,0 +1,53 @@
+<includeonly>{{#invoke:ObbyGameInfobox|main}}</includeonly><noinclude>
+<code>{{Tl|ObbyGameInfobox}}</code> is a large and complex template (which invokes [[Module:ObbyGameInfobox]]). Please refer to the below documentation about how each parameter is used.
+
+Please note that only the <code>root_place_id</code> and <code>name</code> parameters are truly required for an ideal template. Most information is automatically fetched based on the place id. The root place id should be the number/id in the url when you open the game.
+<pre>{{ObbyGameInfobox
+| name* = {{PAGENAME}}
+| image = thumbnail.webp
+| root_place_id* = PLACE ID HERE AS NUMBER
+| developer = DEVELOPER NAME HERE (will be used as a fallback)
+| publisher = PUBLISHER (remove field if inapplicable, i.e., the game is self-published)
+| subgenre = <string> - see list of supported sub-genres and shorthands in the sub-genres help page listed below
+| system = <string> - (defaults to N/A)
+| maturity = <string> - only: minimal, na, unrated/none, mild, mature, restricted
+| year = <number> - 20xx ''(will only be valid if at or above 2008 and below or at the current year or up to 2 years ahead)''
+| month = <number> - 1-12 only
+| stages = <number>
+| stages_total = <number> - the total stages planned (if known)
+| difficulties = <number>
+| difficulties_total = <number> - the total difficulties planned (if known)
+| towers = <number>
+| towers_total = <number> - the total towers planned (if known)
+| avatar_type = <string> - r6, r15, rthro, choice
+
+| verified = <true|false|broken|does_not_load> - do not include if unsure
+| ai = <branding|thumbnails|icon|identity|stated_none|description|unknown> - ignore for blank/unknown
+| is_public = <boolean>
+| unreleased = <boolean>
+
+| visits = <number> - (automatically set)
+| likes = <number> - (automatically set)
+| dislikes = <number> - (automatically set)
+| peak_ccu = <number>
+
+| twitter = <string> - e.g., Username (not @Username)
+| bsky = <string> - e.g., _.bsky.social
+| youtube = <string>
+| roblox = <string> - e.g, Username (not @Username)
+| discord = <string> - code only
+| guilded = <string> - code only, deprecated
+| website = <string> - do not include protocol, supports only https
+| wiki = obbywiki.com/wiki/Obby
+
+| pc = true
+| tablet = true
+| phone = true
+| vr = true
+| console = true
+}}</pre>
+
+=Related=
+* [[Help:Supported_obby_genres]] - lists official supported sub-genres and shorthands
+* [[OW:Playability]]
+</noinclude>
