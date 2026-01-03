@@ -1,0 +1,5 @@
+{{#invoke:RobloxGamePasses|render
+ | universe_id = {{{universe_id|}}}
+ | show_disabled = {{{show_disabled|no}}}
+ | icon_size = {{{icon_size|150}}}
+}}
