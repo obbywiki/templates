@@ -1,0 +1,2 @@
+''[This article is a [[:Category:Stubs|stub]]. You can help the Obby Wiki by [{{fullurl:{{FULLPAGENAME}}|action=edit}} expanding it]]''
+<includeonly>[[Category:Stubs]]</includeonly>
